@@ -16,7 +16,7 @@ let package = Package(
         .binaryTarget(
             name: "ElegaiterSDK",
             url: "https://github.com/kibeom-key/ElegaiterSDK/releases/download/1.0.0/ElegaiterSDK.xcframework_v1.0.0.zip",
-            checksum: "312d92bedc979dd8878983179772cce0ab5b18c358112c4b87fe3773540bc745"
+            checksum: "312d92bedc979dd8878983179772cce0ab5b18c358112c4b87fe3773540bc745"  // 64자 hex만, sha256: 접두사 없음
         ),
     ]
 )
